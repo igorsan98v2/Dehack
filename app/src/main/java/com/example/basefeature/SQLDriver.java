@@ -152,7 +152,7 @@ public class SQLDriver extends SQLiteAssetHelper {
                         place_id = res.getInt(COLUMNS.get("category_id"));//потому что ярик
                         category_id = res.getInt(COLUMNS.get("place_id"));
                         name = res.getString(COLUMNS.get("name"));
-                        issues.add(new IssueInfo(new LatLng(lat, lang), name, category_id, place_id));
+                        issues.add(new Issue(new IssueInfo(),"222"));
                     }
                 }
             } catch (Exception e) {
