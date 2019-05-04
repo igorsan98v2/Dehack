@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BaseFeature</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="username">Имя пользователя</string>
+    <string name="password">Пароль</string>
+    <string name="send_issue">Послать отчет</string>
+    <string name="cancel">Скасувати</string>
+    <string name="issue_title">Название</string>
+    <string name="issue_description">Описание</string>
+    <string name="greeting">Вітаємо</string>
+    <string name="button_login">Вхід</string>
+    <string name="register">Реєстрація</string>
+    <string name="name">"Iм'я"</string>
+    <string name="second_name">Прізвище</string>
+    <string name="phone">Номер телефону</string>
+    <string name="register_button">Зареєструватись</string>
+
+    <string-array name="issue_categories">
+        <item>Закладка</item>
+        <item>ДТП</item>
+        <item>Мусор</item>
+        <item>Авария(Водопровод)</item>
+        <item>Другое</item>
+    </string-array>
+</resources>
